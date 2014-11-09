@@ -23,9 +23,11 @@ h1 {
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 3em;
+  margin: 0;
+  padding: 0;
 }
 
-button {
+button.btn-primary {
   background: #8DBF67;
   border-color: #8DBF67;
   width: 100%;
