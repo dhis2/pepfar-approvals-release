@@ -1,18 +1,32 @@
+* {
+  box-sizing: content-box;
+}
+
 body {
-  background-color: #DDD;
+  background-color: #EEEEEE;
 }
 
 header, 
 section {
-  width: 80%;
-  margin: 15px auto;
+  width: 100%;
+}
+
+header {
+  background-color: #E85248;
+  color: #FFFFFF;
 }
 
 h1 {
   font-family: "Open Sans";
   font-weight: 300;
+  font-size: 3em;
 }
 
 button {
   font-size: 1.5em;
+}
+
+.inner {
+  width: 80%;
+  margin: 15px auto;
 }
