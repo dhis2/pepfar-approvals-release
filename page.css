@@ -14,6 +14,9 @@ section {
 header {
   background-color: #E85248;
   color: #FFFFFF;
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -23,10 +26,13 @@ h1 {
 }
 
 button {
-  font-size: 1.5em;
+  background: #8DBF67;
+  border-color: #8DBF67;
+  width: 100%;
+  font-size: 3em;
 }
 
 .inner {
   width: 80%;
-  margin: 15px auto;
+  margin: 0 auto;
 }
